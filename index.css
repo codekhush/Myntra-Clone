@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+.header_section{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #ffff;
+  justify-content: space-evenly; 
+  align-items: center;
+  /* position: fixed; */
+  border-bottom: 1px solid rgb(173, 161, 161);
+}
+.logo_container{
+  min-width: 150px;
+  
+}
+.logo{
+float: right;
+}
+.categories{
+  display: flex;
+  min-width: 515px;
+  justify-content: space-evenly; 
+}
+.categories a{
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding: 25px 0px;
+  border-bottom: 5px solid #ffffff;
+}
+.categories a:hover {
+  border-bottom: 5px solid #FF3F6C;
+}
+.categories a sup{
+  color: #FF3F6C; 
+  font-size: 10px;
+}
+
+.search_bar{
+  display: flex;
+  min-width: 200px;
+  height: 40px;
+  align-items: center;
+
+}
+#icon{
+  /* background-color: red; */
+  height:20px;
+  padding: 10px;
+  box-sizing: content-box;
+  background-color: #f5f5f6;
+  border-radius: 4px 0 0 4px;
+
+
+}
+.typer{
+  width: 400px;
+  min-width: 30%;
+  height: 40px;
+  /* background-color: red; */
+  flex-grow: 1;
+  background-color: #f5f5f6;
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.oicons{
+  min-width: 250px;
+  display: flex;
+  justify-content: space-evenly; 
+  margin: 0px 150px 0px 0px; 
+}
+.text_align{
+  text-align: center;
+}
+.oicons span div{
+  font-size: 15px;
+}
+.banner_container{
+  /* border: 1px solid; */
+  margin-top: 25px;
+  height: auto;
+
+  width: 80%;
+  /* height: 50px; */
+}
+.space_heading{
+  padding: 100px 20px;
+  letter-spacing: 12px;
+}
+
+.categoriesB_coatainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.img_adjustments{
+  padding: 7px;
+  width: 250px;
+  height: auto;
+}
+.categories_section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer_container{
+  padding: 30px 0px 40px 0px;
+  background: #fafbfc;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_column{
+  display: flex;
+  flex-direction: column;
+}
+.footer_column h3{
+  color: #282c3f;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.footer_column a{
+  text-decoration: none;
+  color: #696b79;
+  font-size: 14px;
+  padding: ;
+
+}
